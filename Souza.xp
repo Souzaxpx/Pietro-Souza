@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuidados com a Pele Feminina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .cta {
+            background-color: #ff6f61;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            margin: 20px 0;
+            display: block;
+            text-decoration: none;
+        }
+        .cta:hover {
+            background-color: #e65550;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .tips {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .tip {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 20px;
+            width: calc(33% - 40px);
+            box-sizing: border-box;
+        }
+        .tip img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .tip h3 {
+            margin-top: 0;
+        }
+        @media (max-width: 768px) {
+            .tip {
+                width: calc(50% - 40px);
+            }
+        }
+        @media (max-width: 480px) {
+            .tip {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Cuidados com a Pele Feminina</h1>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#dicas">Dicas</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section id="sobre">
+    <div class="section-title">
+        <h2>Sobre Nós</h2>
+    </div>
+    <p>Bem-vinda ao nosso site de cuidados com a pele feminina! Aqui, você encontrará as melhores dicas e recomendações para manter sua pele saudável e radiante. Nossos especialistas compartilham conhecimentos valiosos que vão transformar sua rotina de cuidados com a pele.</p>
+    <a class="cta" href="#dicas">Veja nossas dicas exclusivas!</a>
+</section>
+
+<section id="dicas">
+    <div class="section-title">
+        <h2>Dicas de Cuidados com a Pele</h2>
+    </div>
+    <div class="tips">
+        <div class="tip">
+            <img src="https://via.placeholder.com/300" alt="Hidratação">
+            <h3>Hidratação</h3>
+            <p>A hidratação é essencial para uma pele saudável. Utilize cremes hidratantes adequados ao seu tipo de pele todos os dias.</p>
+        </div>
+        <div class="tip">
+            <img src="https://via.placeholder.com/300" alt="Proteção Solar">
+            <h3>Proteção Solar</h3>
+            <p>Proteja sua pele dos danos solares com um bom protetor solar. Aplicar diariamente, mesmo em dias nublados, previne o envelhecimento precoce.</p>
+        </div>
+        <div class="tip">
+            <img src="https://via.placeholder.com/300" alt="Limpeza Facial">
+            <h3>Limpeza Facial</h3>
+            <p>Limpe seu rosto duas vezes ao dia para remover impurezas e evitar acne. Utilize produtos suaves e adequados ao seu tipo de pele.</p>
+        </div>
+    </div>
+    <a class="cta" href="#contato">Fale conosco para mais dicas!</a>
+</section>
+
+<section id="contato">
+    <div class="section-title">
+        <h2>Contato</h2>
+    </div>
+    <p>Quer saber mais? Entre em contato conosco! Preencha o formulário abaixo e nossa equipe responderá o mais breve possível.</p>
+    <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Cuidados com a Pele Feminina. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
